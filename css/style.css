@@ -86,6 +86,10 @@ ul {
     white-space: nowrap;
 }
 
+.d-lg-none {
+  display: none;
+}
+
 .d-none {
     display: inline-block;
     border-radius: 50%;
@@ -150,7 +154,7 @@ section.resume-section {
 
 h1 {
     font-size: 6rem;
-    line-height: 5.5rem;
+    line-height: 6.5rem;
 }
 
 .mb-0{
@@ -169,7 +173,7 @@ h1 {
 
 .subheading {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-size: 1.6rem;
 }
@@ -234,10 +238,11 @@ h1 {
 .dev-icons {
   width: 100%;
   font-size: 3rem;
-  display: inline-flex;
+  display: inline-table;
 }
 .list-inline-item {
   margin-right: 1.5rem;
+  display: inline-flex;
 }
 .dev-icons .list-inline-item i:hover {
   color: #fa983a;
@@ -303,6 +308,73 @@ h1 {
 
 .colored_yellow {
   color: #ffc107;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    position: relative;
+  }
+  #sideNav {
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3.5rem;
+      z-index: 1030;
+  }
+
+  .navbar-brand {
+      margin: 3px 0 0 0;
+      left: 6px !important;
+  }
+
+  .d-lg-none {
+    display: block;
+    font-size: 1.25rem;
+    color: #34495e;
+  }
+
+  .d-none {
+      display: none;
+  }
+
+  .fixed-top .navbar-nav {
+    display: none;
+  }
+
+  .navbar-collapse {
+    height: 100%;
+  }
+
+  .fixed-top a {
+    font-size: 2.5rem;
+    color: #fff;
+    position: absolute;
+    left: 93%;
+  }
+
+  .container {
+      top: 6rem;
+      position: absolute;
+      left: 0;
+  }
+
+  section.resume-section {
+      padding: 2rem !important;
+      border-bottom: .1px dotted #7f8c8d;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .fixed-top a {
+      left: 85%;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0 !important;
+  }
 }
 
 /* https://codepen.io/carolineartz/pen/VwYwZaP */
