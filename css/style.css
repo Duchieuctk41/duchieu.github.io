@@ -140,6 +140,10 @@ ul li a.nav-link {
     padding: 8px;
 }
 
+.icon {
+  display: none;
+}
+
 /* content */
 
 .container {
@@ -351,6 +355,7 @@ h1 {
     color: #fff;
     position: absolute;
     left: 93%;
+    display: block;
   }
 
   .container {
@@ -365,10 +370,9 @@ h1 {
   }
 }
 
-
 @media only screen and (max-width: 400px) {
   .fixed-top a {
-      left: 85%;
+      left: 82%;
   }
 
   ul {
