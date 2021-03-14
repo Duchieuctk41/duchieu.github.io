@@ -1,49 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    padding-top: 0;
-    margin: 0%;
-    color: #34495e;
-    padding-left: 17rem;
-    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 0;
+  margin: 0%;
+  color: #34495e;
+  padding-left: 17rem;
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 a {
   text-decoration: none;
-    color: #079992;
+  color: #079992;
 }
 
 a:hover {
-    color: #fd7e14;
-    text-decoration: dashed;
+  color: #fd7e14;
+  text-decoration: dashed;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
 }
 
 p {
   margin-top: 0;
-    font-size: 1.1rem;
-    color: #34495e;
-    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.1rem;
+  color: #34495e;
+  font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
-
 
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
 }
 
-b, strong {
-    font-weight: bolder;
+b,
+strong {
+  font-weight: bolder;
 }
 
 img {
-    vertical-align: middle;
-    border-style: none;
+  vertical-align: middle;
+  border-style: none;
 }
 
 img.subheading-icon {
@@ -52,38 +67,37 @@ img.subheading-icon {
   margin-bottom: 0.2rem;
 }
 
-
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 /* navbar */
 
 #sideNav {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 17rem;
+  height: 100vh;
 }
 
 .bg-primary {
-    background-color: #38ada9;
+  background-color: #38ada9;
 }
 
 .navbar-brand {
-    margin: 24px;
-    padding: 8px;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+  margin: 24px;
+  padding: 8px;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .d-lg-none {
@@ -91,53 +105,53 @@ ul {
 }
 
 .d-none {
-    display: inline-block;
-    border-radius: 50%;
-    width: 90%;
-    height: 100%;
-    background: #82ccdd;
+  display: inline-block;
+  border-radius: 50%;
+  width: 90%;
+  height: 100%;
+  background: #82ccdd;
 }
-.d-none img{
-    width: 94%;
-    height: 94%;
-    padding-top: 6px;
-    border-radius: 50%;
-    margin: auto;
-    padding: auto;
+.d-none img {
+  width: 94%;
+  height: 94%;
+  padding-top: 6px;
+  border-radius: 50%;
+  margin: auto;
+  padding: auto;
 }
 
 ul.navbar-nav {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
 }
 
 .nav-item {
-    box-sizing: border-box;
-    padding: 10px;  
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 ul.navbar-nav li a {
-    color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 ul.navbar-nav li a:hover {
-    color: white;
+  color: white;
 }
 
 ul li a.nav-link {
-    box-sizing: border-box;
-    padding: 8px;
+  box-sizing: border-box;
+  padding: 8px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
 }
 
 .nav-link {
-    padding: 8px;
+  padding: 8px;
 }
 
 .icon {
@@ -147,75 +161,78 @@ ul li a.nav-link {
 /* content */
 
 .container {
-    width: 100%;
+  width: 100%;
 }
 
 section.resume-section {
-    width: 92%;
-    padding: 3rem !important;
-    border-bottom: .1px dotted #7f8c8d;
+  width: 92%;
+  padding: 3rem !important;
+  border-bottom: 0.1px dotted #7f8c8d;
 }
 
 h1 {
-    font-size: 6rem;
-    line-height: 6.5rem;
+  font-size: 6rem;
+  line-height: 6.5rem;
 }
 
-.mb-0{
-    margin-bottom: 0 !important;
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 .mb-2 {
-  margin-bottom: .5rem important;
+  margin-bottom: 0.5rem important;
 }
-.h-3 {   
-    font-size: 2rem;
+.h-3 {
+  font-size: 2rem;
 }
 
-.mb-4, .my-4 {
-    margin-bottom: 2rem!important;
+.mb-4,
+.my-4 {
+  margin-bottom: 2rem !important;
 }
 
 .subheading {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.6rem;
 }
-.mb-3, .my-3 {
-    margin-bottom: 1rem!important;
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
 }
 .mb-5 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 /* content */
 .resume-item {
-    display: inline-flex;
+  display: inline-flex;
 }
 .resume-content {
-    width: 65%;
+  width: 65%;
 }
 
 .resume-date {
-    width: 30%;
-    padding-top: 1%;
-    text-align: right;
-    margin-right: 5%;
+  width: 30%;
+  padding-top: 1%;
+  text-align: right;
+  margin-right: 5%;
 }
 
-
 .text-primary {
-    color: #079992;
-    letter-spacing: 0.05rem;
+  color: #079992;
+  letter-spacing: 0.05rem;
 }
 
 .text-primary:hover {
-    color: #fd7e14;
+  color: #fd7e14;
 }
 
 .fa-ul {
-    padding: 0;
-    list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .social-icons a {
@@ -262,7 +279,6 @@ h1 {
   outline-color: #d48a6e;
 }
 
-
 .interest-pictures img {
   width: 20%;
   margin-top: 5px;
@@ -279,11 +295,11 @@ h1 {
 }
 
 .colored_nodejs {
-  color: #83CD29;
+  color: #83cd29;
 }
 
 .colored_js {
-  color:#ffc107;
+  color: #ffc107;
 }
 
 .colored_html5 {
@@ -319,17 +335,17 @@ h1 {
     position: relative;
   }
   #sideNav {
-      display: block;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 3.5rem;
-      z-index: 1030;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    z-index: 1030;
   }
 
   .navbar-brand {
-      margin: 3px 0 0 0;
-      left: 6px !important;
+    margin: 3px 0 0 0;
+    left: 6px !important;
   }
 
   .d-lg-none {
@@ -339,7 +355,7 @@ h1 {
   }
 
   .d-none {
-      display: none;
+    display: none;
   }
 
   .fixed-top .navbar-nav {
@@ -359,20 +375,20 @@ h1 {
   }
 
   .container {
-      top: 6rem;
-      position: absolute;
-      left: 0;
+    top: 6rem;
+    position: absolute;
+    left: 0;
   }
 
   section.resume-section {
-      padding: 2rem !important;
-      border-bottom: .1px dotted #7f8c8d;
+    padding: 2rem !important;
+    border-bottom: 0.1px dotted #7f8c8d;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .fixed-top a {
-      left: 82%;
+    left: 82%;
   }
 
   ul {
@@ -401,56 +417,56 @@ h1 {
 
 .typing-animation {
   -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-duration: 1200ms;
-          animation-duration: 1200ms;
+  animation-duration: 1200ms;
 }
 
 path#f1-l1 {
   -webkit-animation-name: typing-f1-l1;
-          animation-name: typing-f1-l1;
+  animation-name: typing-f1-l1;
 }
 
 path#f1-l2 {
   -webkit-animation-name: typing-f1-l2;
-          animation-name: typing-f1-l2;
+  animation-name: typing-f1-l2;
 }
 
 path#f1-l3 {
   -webkit-animation-name: typing-f1-l3;
-          animation-name: typing-f1-l3;
+  animation-name: typing-f1-l3;
 }
 
 path#f2-l4 {
   -webkit-animation-name: typing-f2-l4;
-          animation-name: typing-f2-l4;
+  animation-name: typing-f2-l4;
 }
 
 path#f2-l5 {
   -webkit-animation-name: typing-f2-l5;
-          animation-name: typing-f2-l5;
+  animation-name: typing-f2-l5;
 }
 
 path#f2-l6 {
   -webkit-animation-name: typing-f2-l6;
-          animation-name: typing-f2-l6;
+  animation-name: typing-f2-l6;
 }
 
 path#f3-l7 {
   -webkit-animation-name: typing-f3-l7;
-          animation-name: typing-f3-l7;
+  animation-name: typing-f3-l7;
 }
 
 path#f3-l8 {
   -webkit-animation-name: typing-f3-l8;
-          animation-name: typing-f3-l8;
+  animation-name: typing-f3-l8;
 }
 
 path#f3-l9 {
   -webkit-animation-name: typing-f3-l9;
-          animation-name: typing-f3-l9;
+  animation-name: typing-f3-l9;
 }
 
 @-webkit-keyframes typing-f3-l9 {
@@ -705,13 +721,13 @@ path#f3-l9 {
 #paw-left--up,
 #paw-left--down {
   -webkit-animation: blink 300ms infinite;
-          animation: blink 300ms infinite;
+  animation: blink 300ms infinite;
 }
 
 #paw-right--up,
 #paw-left--down {
   -webkit-animation-delay: 150ms;
-          animation-delay: 150ms;
+  animation-delay: 150ms;
 }
 
 @-webkit-keyframes blink {
@@ -738,6 +754,8 @@ path#f3-l9 {
   }
 }
 #laptop__code {
-  -webkit-transform: rotateX(-37deg) rotateY(-46deg) rotateZ(-23deg) translateX(8px) translateY(20px) translateZ(-50px);
-          transform: rotateX(-37deg) rotateY(-46deg) rotateZ(-23deg) translateX(8px) translateY(20px) translateZ(-50px);
+  -webkit-transform: rotateX(-37deg) rotateY(-46deg) rotateZ(-23deg)
+    translateX(8px) translateY(20px) translateZ(-50px);
+  transform: rotateX(-37deg) rotateY(-46deg) rotateZ(-23deg) translateX(8px)
+    translateY(20px) translateZ(-50px);
 }
